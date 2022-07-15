@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>CSS- interview questions</h1>
+    ques1:-Difference between flex row and column
+    <!-- ans-1:-
+    it is a property of flexbox
+    row: items flow horizontally
+    column: items flow vertically
+
+    Items display in a row (the flex-direction property's default is row ).
+     The items start from the start edge of the main axis. 
+     The items do not stretch on the main dimension, but can shrink.
+      The items will stretch to fill the size of the cross axis.
+
+      The flex-direction CSS property sets how flex items are placed in the flex container
+       defining the main axis and the direction (normal or reversed) -->
+<br><hr>
+ques-2:- Explain inline , internal and external stylesheet
+ans:2:-
+<!-- Internal or embedded CSS requires you to add <style> tag in the <head> section of your HTML document. -->
+
+    <!-- /* INTERNAL - This CSS style is an effective method of styling a single page.  -->
+    <!-- However, using this style for multiple pages is time-consuming as you need to put CSS rules on every page of your website. */ -->
+
+    <!-- With external CSS, you’ll link your web pages to an external .css file, which can be created by any text editor in your device (e.g., Notepad++). -->
+
+ <!-- This CSS type is a more efficient method, especially for styling a large website. By editing one .css file, you can change your entire site at once. */ -->
+<hr><br>
+ques-3:-Justify-content allows you to do what?
+ans-3:-
+<!-- The justify-content property is a sub-property of the Flexible Box Layout module.
+
+It defines the alignment along the main axis. It helps distribute extra free space leftover when either all the flex items on a line are inflexible, or are flexible but have reached their maximum size. It also exerts some control over the alignment of items when they overflow the line.
+
+The justify-content property accepts five different values:
+
+flex-start (default): items are packed toward the start line
+flex-end: items are packed toward to end line
+center: items are centered along the line
+space-between: items are evenly distributed in the line; first item is on the start line, last item on the end line
+space-around: items are evenly distributed in the line with equal space around them -->
+<!-- space-evenly: items are distributed so that the spacing between any two adjacent alignment subjects, before the first alignment subject, and after the last alignment subject is the same -->
+<br><hr>
+ques-4:-difference between absolute and relative position?
+<!-- <ans-4:->An absolute position element is positioned relative to the first parent element that has a position other than static. A relative positioned element is positioned relative to its normal position. To position an element relatively, the property position is set as relative.</ans-4:-> -->
+<br><hr>
+ques-5:-What is grid-template-columns used for?
+ans-5:-
+<!-- Definition and Usage. The grid-template-columns property specifies the number (and the widths) of columns in a grid layout. The values are a space separated list, where each value specifies the size of the respective column. -->
+<br><hr>
+ques-6:-What is the z-index in CSS?
+ans-6:-
+<!-- Z Index ( z-index ) is a CSS property that defines the order of overlapping HTML elements. Elements with a higher index will be placed on top of elements with a lower index. Note: Z index only works on positioned elements ( position:absolute , position:relative , or position:fixed ). -->
+<hr><br>
+
+ques-7:-What is the difference between padding and margin?
+ans-7:-
+<!-- In CSS, a margin is the space around an element’s border, while padding is the space between an element’s border and the element’s content. Put another way, the margin property controls the space outside an element, and the padding property controls the space inside an element. -->
+<!-- in margin both neg and positive values can be given but not in padding -->
+<hr><br>
+ques-8:-What is box sizing?
+ans-8:-
+<!-- The box-sizing CSS property sets how the total width and height of an element is calculated. -->
+<!-- border box , content box -->
+<!-- *{ margin:0; padding: 0; box-sizing : border-box} -->
+
+<hr><br>
+ques-9:-What is animation delay?
+ans-9:-
+<!-- The animation-delay CSS property specifies the amount of time to wait from applying the animation to an element before beginning to perform the animation. The animation can start later, immediately from its beginning, or immediately and partway through the animation -->
+<hr><br>
+
+ques-10:-Which property you will use to merge cells vertically in grid?
+ans-10:-
+<!-- CSS grid-column Property. -->
+<hr><br>
+ques-11:-Which property you will use to merge cells horizontally in grid?
+ans-11:-
+<!-- CSS- grid-row property -->
+<hr><br>
+
+ques-12:-Explain CSS box model
+ans-12:-
+<!-- he CSS box model is a container that contains multiple properties including borders, margin, padding, and the content itself. It is used to create the design and layout of web pages. It can be used as a toolkit for customizing the layout of different elements. -->
+
+<br><hr>
+
+ques-13:-what is the difference between display none and visibility hidden?
+ans-13:-
+<!-- display:none means that the tag in question will not appear on the page at all (although you can still interact with it through the dom). There will be no space allocated for it between the other tags. visibility:hidden means that unlike display:none, the tag is not visible, but space is allocated for it on the page. -->
+</body>
+</html>
